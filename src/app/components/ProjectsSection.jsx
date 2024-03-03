@@ -51,7 +51,7 @@ const projectsData = [
     id: 5,
     title: "Collège Numérique 56",
     description: "Site vitrine pour l'opération Collège Numérique 56",
-    tags: ["HTML", "CSS", "Javascript"],
+    tags: ["HTML", "CSS", "JavaScript"],
     gitUrl: "https://github.com/augustin-pasq/College-Numerique-56",
     previewUrl: "/",
     year: "2022",
