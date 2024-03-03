@@ -90,7 +90,7 @@ const projectsData = [
     description:
       "Un site web permettant de jouer au jeu du pendu tout seul ou à deux",
     tags: ["React"],
-    gitUrl: "https://github.com/liam-leny/Hangman-game",
+    gitUrl: "https://github.com/liam-leny/Pendu",
     previewUrl: "/",
     year: "2023",
   },
@@ -130,7 +130,7 @@ const ProjectsSection = () => {
 
   return (
     <div className={styles.projects}>
-      <h1 className={myFont.className}>"PROJETS"</h1>
+      <h1 className={myFont.className}>&quot;PROJETS&quot;</h1>
       <ul ref={ref} className={styles.containeur}>
         {sortedProjects.map((project, index) => (
           <motion.li

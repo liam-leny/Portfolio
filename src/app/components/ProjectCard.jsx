@@ -15,7 +15,12 @@ const ProjectCard = ({
     <div className={styles.projectCard}>
       <div className={styles.projectCardOverlay}>
         <Link href={gitUrl} className={styles.projectLink}>
-          <img src="/github.svg" alt="Logo de Github" />{" "}
+          <Image
+            height={60}
+            width={60}
+            src="/github.svg"
+            alt="Logo de Github"
+          />{" "}
         </Link>
         {/* <Link href={previewUrl} className={styles.projectLink}></Link> */}
       </div>
