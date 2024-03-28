@@ -107,7 +107,7 @@ const projectsData = [
     id: 10,
     title: "liamleny.fr",
     description: "Portfolio",
-    tags: ["React", "Next"],
+    tags: ["React", "next"],
     gitUrl: "https://github.com/liam-leny/Portfolio",
     previewUrl: "/",
     year: "2024",

@@ -5,8 +5,14 @@
   padding: 4rem 4rem;
 }
 
+@media (max-width: 768px) {
+  .projects {
+    padding: 4rem 0;
+  }
+}
+
 .projects h1 {
-  font-size: 3vw;
+  font-size: 3rem;
   padding-bottom: 2rem;
   color: #ff6774;
 }

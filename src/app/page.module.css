@@ -15,13 +15,11 @@
   z-index: 1;
   margin: 20px;
   color: white;
-  font-size: 3vw;
+  font-size: 4rem;
 }
 
-.mainTEMP {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  padding: 6rem;
-  min-height: 100vh;
+@media (max-width: 768px) {
+  .background h1 {
+    font-size: 3rem;
+  }
 }

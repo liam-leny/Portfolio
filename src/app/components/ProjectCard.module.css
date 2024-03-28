@@ -1,7 +1,7 @@
 .projectCard {
   position: relative;
-  width: 400px;
-  border-radius: 8px;
+  width: 20rem;
+  border-radius: 1rem;
   overflow: hidden;
   background-color: white;
   color: white;
